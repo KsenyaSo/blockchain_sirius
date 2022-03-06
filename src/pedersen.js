@@ -1,6 +1,6 @@
 var EC = require('elliptic').ec;
 var ec = new EC('secp256k1');
-var HN = require('./hex-number.js');
+var HN = require('./hex_number.js');
 var crypto = require('crypto');
 function commitTo(H, r, x) {
     return ec.g.mul(r).add(H.mul(x));
@@ -26,7 +26,7 @@ function generateRandom() {
     var random;
     do {
         random = HN.toBN(HN.fromBuffer(crypto.randomBytes(32)));
-    } while (random.gte(ec.n)); // make sure it's in the safe range
+    } while (random.gte(ec.n)); 
     return random;
 }
 function generateH() {
