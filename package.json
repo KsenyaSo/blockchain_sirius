@@ -1,5 +1,5 @@
 {
-  "name": "pedersen-commitments",
+  "name": "blockchain_sirius",
   "version": "1.0.0",
   "description": "Implementation of Perdersen commitments in node.js and solidity.",
   "main": "index.js",
@@ -7,18 +7,18 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "comm"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christsim/pedersen-commitments.git"
+    "url": "git+https://github.com/KsenyaSo/blockchain_sirius.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christsim/pedersen-commitments/issues"
+    "url": "https://github.com/KsenyaSo/blockchain_sirius/issues"
   },
-  "homepage": "https://github.com/christsim/pedersen-commitments#readme",
+  "homepage": "https://github.com/KsenyaSo/blockchain_sirius#readme",
   "dependencies": {
     "bignumber.js": "^6.0.0",
     "bip39": "^2.5.0",
