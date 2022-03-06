@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "hdkey": "^0.8.0",
-    "mocha": "^5.0.0"
+    "comm": "^5.0.0"
   }
 }
