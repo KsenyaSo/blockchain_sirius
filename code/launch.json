@@ -4,7 +4,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "comm Tests",
+            "name": "Mocha Tests",
             "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
             "args": [
                 "-u",
